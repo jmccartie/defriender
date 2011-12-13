@@ -1,0 +1,88 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.1.3)
+      multi_json (~> 1.0)
+    addressable (2.2.6)
+    attr_required (0.0.3)
+    daemons (1.1.4)
+    diff-lcs (1.1.3)
+    eventmachine (0.12.10)
+    faraday (0.7.5)
+      addressable (~> 2.2.6)
+      multipart-post (~> 1.1.3)
+      rack (>= 1.1.0, < 2)
+    fb_graph (2.2.3)
+      httpclient (>= 2.2.0.2)
+      rack-oauth2 (>= 0.9.4)
+    growl_notify (0.0.3)
+      rb-appscript
+    guard (0.8.4)
+      thor (~> 0.14.6)
+    haml (3.1.4)
+    hashie (1.2.0)
+    httpclient (2.2.4)
+    i18n (0.6.0)
+    json (1.6.3)
+    multi_json (1.0.4)
+    multipart-post (1.1.4)
+    oauth2 (0.5.1)
+      faraday (~> 0.7.4)
+      multi_json (~> 1.0.3)
+    omniauth (1.0.1)
+      hashie (~> 1.2)
+      rack
+    omniauth-facebook (1.1.0)
+      omniauth-oauth2 (~> 1.0.0)
+    omniauth-oauth2 (1.0.0)
+      oauth2 (~> 0.5.0)
+      omniauth (~> 1.0)
+    rack (1.3.3)
+    rack-oauth2 (0.11.0)
+      activesupport (>= 2.3)
+      attr_required (>= 0.0.3)
+      httpclient (>= 2.2.0.2)
+      i18n
+      json (>= 1.4.3)
+      rack (>= 1.1)
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rake (0.9.2.2)
+    rb-appscript (0.6.1)
+    rb-fsevent (0.4.3.1)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.4)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+    shotgun (0.9)
+      rack (>= 1.0)
+    sinatra (1.2.6)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    thin (1.3.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.14.6)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fb_graph
+  growl_notify
+  guard
+  haml
+  omniauth-facebook
+  rack-test
+  rake (= 0.9.2.2)
+  rb-fsevent
+  rspec (~> 2.6.0)
+  shotgun
+  sinatra (= 1.2.6)
+  thin (= 1.3.1)

@@ -1,0 +1,5 @@
+Hey there, #{current_user}!
+
+Ready to de-friend some folks?  Great!
+%form{:action => "/defriend", :method => "post"}
+  %input{:type => "submit", :value => "Let's do this!"}/

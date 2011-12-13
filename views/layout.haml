@@ -1,0 +1,12 @@
+%html
+  %head
+    %title Defriender
+  %body
+    #main
+      = yield
+    #footer
+      - if current_user
+        %a{:href => "/logout"} Logout
+    - if options.environment.to_s == "development"
+      %div
+        = session
